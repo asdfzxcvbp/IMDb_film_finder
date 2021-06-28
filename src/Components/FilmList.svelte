@@ -94,10 +94,10 @@
                             <td> {det.Rated} </td>
                         </tr>
                         <tr>
-                            <td colspan="4" class="strong"style="width: 100%;" > Plot </td>
+                            <td colspan="5" class="strong"style="width: 100%;" > Plot </td>
                         </tr>
                         <tr>
-                            <td colspan="4" style="width: 100%;"> {det.Plot} </td>
+                            <td colspan="5" style="width: 100%;"> {det.Plot} </td>
                         </tr>
                     { /if }
                 { /each }

@@ -5,6 +5,12 @@
         Value: string;
     }
 
+    export interface ApiRes{
+		Search: Array<FilmType>;
+		totalResults: string;
+		Response: String;
+	}
+
     export interface FilmDetType {
         imdbID: string;
         Genre: string;

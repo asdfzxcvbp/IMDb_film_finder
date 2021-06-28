@@ -1,9 +1,9 @@
 import { writable } from 'svelte/store';
-//import type Film from './FilmTypes.svelte';
+import type { FilmType } from "../Types/FilmTypes.svelte";
 
-const FilmList/*: Array<Film>*/ = [];
+const FilmList: Array<FilmType> = [];
 const { subscribe, set, update } = writable(FilmList);
-const addFilm = (film/*: Film*/) => update(films => {
+const addFilm = (film: FilmType) => update(films => {
     return [...films, film];
 });
 const reset = () => {
